@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Name</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="navbar">
+  <a href="./">Ollie McGruder</a>
+  <a class="hideOnMobile" href="./#Animation_Section"><label for="Animation">Animation</label></a>
+  <a class="hideOnMobile Animation" href="./#Animation_Section">Animation</a>
+  <a class="hideOnMobile" href="./#Character_Design_Section"><label for="Character_Design">Character Design</label></a>
+  <a class="hideOnMobile Character_Design" href="./#Character_Design_Section">Character Design</a>
+  <a class="hideOnMobile" href="./#Story_Boarding_Section"><label for="Story_Boarding">Story Boarding</label></a>
+  <a class="hideOnMobile Story_Boarding" href="./#Story_Boarding_Section">Story Boarding</a>
+</div>
+
+
+<main>
+
+<div class="splash_page">
+  <div>
+    <h1>Hi! I'm Ollie</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quos cupiditate ratione voluptates voluptatum architecto quibusdam est sapiente magni odio!</p>
+    <div>
+      <button class="copy" onclick="copyEmail()"><img src="Icons/mail.svg">mcgruderolivia@gmail.com</button>
+      <button class="copy" onclick="copyPhone()"><img src="Icons/phone.svg">913-280-5953</button>
+
+      <script>
+        function copyEmail() {
+            navigator.clipboard.writeText
+                ("mcgruderolivia@gmail.com");
+        }
+        function copyPhone() {
+            navigator.clipboard.writeText
+                ("9132805953");
+        }
+      </script>
+
+    </div>
+  </div>
+  <div><img src="splash_page_image.jpg" alt="Photo of Ollie McGruder"></div>
+</div>
+
+<div>
+  <h2>What do you want to see?</h2>
+  <nav>  
+    <input type="checkbox" id="Animation"><label for="Animation"><a href="./#Animation_Section">Animation</a></label>
+    <input type="checkbox" id="Character_Design"><label for="Character_Design"><a href="./#Character_Design_Section">Character Design</a></label>
+    <input type="checkbox" id="Story_Boarding"><label for="Story_Boarding"><a href="./#Story_Boarding_Section">Story Boarding</a></label>
+    <input type="checkbox" id="Sketching"><label for="Sketching"><a href="./#Sketching_Section">Sketching</a></label>
+    <input type="checkbox" id="Personal_Projects"><label for="Personal_Projects"><a href="./#Personal_Projects_Section">Personal Projects</a></label>
+  </nav>
+</div>
+
+<div class="Animation" id="Animation_Section">
+  <h2>Animation</h2>
+  <div>
+    <h3>ENTER PROJECT NAME HERE</h3>
+    <div>
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+    </div>
+  </div>
+</div>
+
+<div class="Character_Design" id="Character_Design_Section">
+  <h2>Character Design</h2>
+  <div>
+    <h3>ENTER PROJECT NAME HERE</h3>
+    <div>
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+    </div>
+  </div>
+</div>
+
+<div class="Story_Boarding" id="Story_Boarding_Section">
+  <h2>Story Boarding</h2>
+  <div>
+    <h3>ENTER PROJECT NAME HERE</h3>
+    <div>
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+    </div>
+  </div>
+</div>
+
+<div class="Sketching" id="Sketching_Section">
+  <h2>Sketching</h2>
+  <div>
+    <h3>ENTER PROJECT NAME HERE</h3>
+    <div>
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+    </div>
+  </div>
+</div>
+
+<div class="Personal_Projects" id="Personal_Projects_Section">
+  <h2>Personal Projects</h2>
+  <div>
+    <h3>ENTER PROJECT NAME HERE</h3>
+    <div>
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+      <img src="Images/ENTER_PROJECT_NAME_FOLDER_HERE/ENTER_PHOTO_NAME_HERE.jpg" alt="ENTER CAPTION HERE" loading="lazy">
+    </div>
+  </div>
+</div>
+
+</main>
+</body>
+</html>

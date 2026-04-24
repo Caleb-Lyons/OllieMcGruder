@@ -1,0 +1,112 @@
+/* Caleb Lyons - 4/13/2026 */
+
+@font-face {
+    font-family: Sour Gummy;
+    src: url(Fonts/SourGummy-VariableFont_wdth,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: Sour Gummy;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Animation, .Character_Design, .Story_Boarding, .Sketching, .Personal_Projects {
+    display: none;
+}
+
+body:has(#Animation[type="checkbox"]:checked) {
+
+    .navbar label[for="Animation"] {
+        display: none;
+    }
+    
+    .Animation {
+        display: inline;
+    }
+    
+}
+
+body:has(#Character_Design[type="checkbox"]:checked) {
+
+    .navbar label[for="Character_Design"] {
+        display: none;
+    }
+    
+    .Character_Design {
+        display: inline;
+    }
+    
+}
+
+body:has(#Story_Boarding[type="checkbox"]:checked) {
+
+    .navbar label[for="Story_Boarding"] {
+        display: none;
+    }
+    
+    .Story_Boarding {
+        display: inline;
+    }
+    
+}
+
+body:has(#Sketching[type="checkbox"]:checked) {
+
+    .navbar label[for="Sketching"] {
+        display: none;
+    }
+    
+    .Sketching {
+        display: inline;
+    }
+    
+}
+
+body:has(#Personal_Projects[type="checkbox"]:checked) {
+
+    .navbar label[for="Personal_Projects"] {
+        display: none;
+    }
+    
+    .Personal_Projects {
+        display: inline;
+    }
+    
+}
+
+@media (max-width: 750px) {
+
+    .hideOnTablet {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .hideOnMobile {
+        display: none;
+    }
+    
+}
