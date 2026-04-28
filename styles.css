@@ -284,11 +284,16 @@ section > div > div {
         background-size: min(110vh, 110vw);
         background-position: top;
         align-items: flex-end;
+        height: fit-content;
+
+        h1 {
+            padding-top: 25rem;
+        }
 
         > div {
             max-width: max(40rem, 60vw);
             h1, p {
-                text-shadow: 0 0 1rem #EFF7FA, 0 0 3rem #EFF7FA;
+                text-shadow: 0 0 3rem #EFF7FA;
             }
         }
 
@@ -313,4 +318,8 @@ section > div > div {
         display: none;
     }
     
+    html {
+        background-size: 100rem;
+    }
+
 }
